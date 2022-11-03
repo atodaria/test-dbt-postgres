@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: dbt_stg_tables
+  - name: postgrestest_google_sheets
     tables:
       - name: stg_students
       - name: stg_ieps
