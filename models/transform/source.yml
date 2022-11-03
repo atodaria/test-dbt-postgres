@@ -1,0 +1,9 @@
+
+version: 2
+
+sources:
+  - name: pgtestwithmodels_google_sheets
+    tables:
+      - name: stg_students
+      - name: stg_ieps
+
