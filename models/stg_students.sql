@@ -1,5 +1,8 @@
+
+{{ config(materialized='table') }}
+
 select 
-	sd.student_id,
+    sd.student_id,
 	sd.first_name, 
 	sd.last_name, 
 	sd.building, 
