@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbt_stg_tables
+    tables:
+      - name: stg_students
+      - name: stg_ieps
+      - name: stg_iep_discipline_minutes
+      - name: stg_caseload
+      - name: stg_caseload_eligibility_codes
